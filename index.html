@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS User Group Vadodara | Official Site</title>
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Welcome to the AWS User Group Vadodara. Join the largest cloud computing community in Gujarat to learn, share, and network with AWS enthusiasts and professionals.">
+    <meta name="keywords" content="AWS, Amazon Web Services, User Group, Vadodara, Cloud Computing, Tech Community, Meetup, AWSUG, Gujarat, Serverless, AI, ML, DevOps">
+    <meta name="author" content="AWS User Group Vadodara">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://awsugvadodara.org/">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://awsugvadodara.org/">
+    <meta property="og:title" content="AWS User Group Vadodara | Official Site">
+    <meta property="og:description" content="Welcome to the AWS User Group Vadodara. Join the largest cloud computing community in Gujarat to learn, share, and network with AWS enthusiasts and professionals.">
+    <meta property="og:image" content="https://awsugvadodara.org/images/og-image.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://awsugvadodara.org/">
+    <meta property="twitter:title" content="AWS User Group Vadodara | Official Site">
+    <meta property="twitter:description" content="Welcome to the AWS User Group Vadodara. Join the largest cloud computing community in Gujarat to learn, share, and network with AWS enthusiasts and professionals.">
+    <meta property="twitter:image" content="https://awsugvadodara.org/images/twitter-image.jpg">
+    
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "AWS User Group Vadodara",
+      "url": "https://awsugvadodara.org/",
+      "logo": "https://awsugvadodara.org/images/logo.png",
+      "description": "A community-driven group focused on Amazon Web Services (AWS) and cloud computing in Vadodara, Gujarat.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Vadodara",
+        "addressRegion": "Gujarat",
+        "addressCountry": "IN"
+      },
+      "sameAs": [
+        "https://twitter.com/awsugvadodara",
+        "https://linkedin.com/company/awsugvadodara",
+        "https://instagram.com/awsugvadodara",
+        "https://youtube.com/awsugvadodara"
+      ]
+    }
+    </script>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Elements -->
+    <div class="bg-glow glow-1"></div>
+    <div class="bg-glow glow-2"></div>
+    <canvas id="particles-canvas"></canvas>
+
+    <!-- Theme Switcher -->
+    <div class="theme-switcher">
+        <div class="theme-toggle-btn" id="theme-toggle-btn">
+            <i class="fas fa-palette"></i>
+        </div>
+        <div class="theme-options">
+            <h4>Select Theme</h4>
+            <div class="theme-colors">
+                <button class="color-btn active" data-color="#FF9900" data-hover="#e88a00" data-glow="rgba(255, 153, 0, 0.4)" style="background: #FF9900;" title="AWS Orange"></button>
+                <button class="color-btn" data-color="#3b82f6" data-hover="#2563eb" data-glow="rgba(59, 130, 246, 0.4)" style="background: #3b82f6;" title="Cyber Blue"></button>
+                <button class="color-btn" data-color="#10b981" data-hover="#059669" data-glow="rgba(16, 185, 129, 0.4)" style="background: #10b981;" title="Emerald Green"></button>
+                <button class="color-btn" data-color="#8b5cf6" data-hover="#7c3aed" data-glow="rgba(139, 92, 246, 0.4)" style="background: #8b5cf6;" title="Amethyst Purple"></button>
+                <button class="color-btn" data-color="#ef4444" data-hover="#dc2626" data-glow="rgba(239, 68, 68, 0.4)" style="background: #ef4444;" title="Ruby Red"></button>
+            </div>
+            
+            <h4 class="mt-4">Background</h4>
+            <div class="theme-bgs">
+                <button class="bg-btn active" data-bg="#0f1319" data-surface="#1a1e24" style="background: #0f1319;" title="Deep Space"></button>
+                <button class="bg-btn" data-bg="#111827" data-surface="#1f2937" style="background: #111827;" title="Slate Dark"></button>
+                <button class="bg-btn" data-bg="#121212" data-surface="#1e1e1e" style="background: #121212;" title="True Black"></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <span class="aws-text">AWS</span> User Group <span class="city">Vadodara</span>
+            </a>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#schedule">Schedule</a></li>
+                <li><a href="#speakers">Speakers</a></li>
+                <li><a href="#sponsors">Sponsors</a></li>
+                <li><a href="#venue">Venue</a></li>
+                <li><a href="#volunteer">Volunteer</a></li>
+                <li><a href="#tickets" class="btn-primary">Tickets</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-content reveal">
+            <div class="hero-badge">Cloud Computing Community</div>
+            <h1 class="hero-title">Empowering the Cloud Community in <span class="highlight">Vadodara</span></h1>
+            <p class="hero-subtitle">Connect, learn, and grow with local AWS enthusiasts, developers, and industry leaders. Join the largest cloud computing community in Gujarat.</p>
+            <div class="hero-cta">
+                <a href="#events" class="btn-primary btn-large">Upcoming Events</a>
+                <a href="#about" class="btn-secondary btn-large">Learn More</a>
+            </div>
+            
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <h3>500+</h3>
+                    <p>Members</p>
+                </div>
+                <div class="stat-item">
+                    <h3>20+</h3>
+                    <p>Meetups</p>
+                </div>
+                <div class="stat-item">
+                    <h3>50+</h3>
+                    <p>Speakers</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-padding">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>About <span class="highlight">AWSUG Vadodara</span></h2>
+                <p>We are a community-driven group focused on Amazon Web Services (AWS) and cloud computing.</p>
+            </div>
+            
+            <div class="about-grid reveal">
+                <div class="about-card glass-panel">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Community First</h3>
+                    <p>A place for developers, architects, and tech enthusiasts to share knowledge and experiences regarding AWS.</p>
+                </div>
+                
+                <div class="about-card glass-panel">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Learn & Grow</h3>
+                    <p>Attend workshops, tech talks, and hands-on sessions to upgrade your cloud computing skills.</p>
+                </div>
+                
+                <div class="about-card glass-panel">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3>Networking</h3>
+                    <p>Connect with industry professionals, find mentors, and discover new career opportunities in the cloud space.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section id="events" class="events section-padding">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Upcoming <span class="highlight">Events</span></h2>
+                <p>Join our upcoming meetups and workshops to learn from the best.</p>
+            </div>
+            
+            <div class="events-list reveal">
+                <div class="event-card glass-panel">
+                    <div class="event-date">
+                        <span class="day">15</span>
+                        <span class="month">MAY</span>
+                    </div>
+                    <div class="event-details">
+                        <div class="event-tags">
+                            <span class="tag">Serverless</span>
+                            <span class="tag">Beginner</span>
+                        </div>
+                        <h3>Getting Started with AWS Lambda & API Gateway</h3>
+                        <p class="event-meta">
+                            <span><i class="far fa-clock"></i> 10:00 AM - 1:00 PM</span>
+                            <span><i class="fas fa-map-marker-alt"></i> MSU Baroda Campus</span>
+                        </p>
+                    </div>
+                    <div class="event-action">
+                        <a href="#" class="btn-outline">Register Now</a>
+                    </div>
+                </div>
+
+                <div class="event-card glass-panel">
+                    <div class="event-date">
+                        <span class="day">02</span>
+                        <span class="month">JUN</span>
+                    </div>
+                    <div class="event-details">
+                        <div class="event-tags">
+                            <span class="tag">AI/ML</span>
+                            <span class="tag">Advanced</span>
+                        </div>
+                        <h3>Building GenAI Apps with Amazon Bedrock</h3>
+                        <p class="event-meta">
+                            <span><i class="far fa-clock"></i> 02:00 PM - 05:00 PM</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Parul University</span>
+                        </p>
+                    </div>
+                    <div class="event-action">
+                        <a href="#" class="btn-outline">Register Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4 reveal">
+                <a href="#" class="view-all-link">View Past Events <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Speakers Section -->
+    <section id="speakers" class="speakers section-padding">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Our <span class="highlight">Speakers</span></h2>
+                <p>Learn from industry experts, AWS Heroes, and community leaders.</p>
+            </div>
+            <div class="speakers-grid reveal">
+                <div class="speaker-card glass-panel">
+                    <div class="speaker-img">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <h3>Jane Doe</h3>
+                    <p class="role">AWS Data Hero</p>
+                    <p class="company">Tech Corp</p>
+                    <div class="speaker-social">
+                        <a href="#" aria-label="X (Twitter)"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="speaker-card glass-panel">
+                    <div class="speaker-img">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <h3>John Smith</h3>
+                    <p class="role">Sr. Solutions Architect</p>
+                    <p class="company">Amazon Web Services</p>
+                    <div class="speaker-social">
+                        <a href="#" aria-label="X (Twitter)"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="speaker-card glass-panel">
+                    <div class="speaker-img">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <h3>Alice Johnson</h3>
+                    <p class="role">Cloud Consultant</p>
+                    <p class="company">Cloud Native Labs</p>
+                    <div class="speaker-social">
+                        <a href="#" aria-label="X (Twitter)"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4 reveal">
+                <a href="#join" class="btn-outline">Become a Speaker</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Schedule Section -->
+    <section id="schedule" class="schedule section-padding">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Event <span class="highlight">Schedule</span></h2>
+                <p>Plan your day with our comprehensive agenda.</p>
+            </div>
+            <div class="schedule-wrapper reveal">
+                <!-- Desktop Track Headers -->
+                <div class="track-headers">
+                    <div class="time-header">Time</div>
+                    <div class="track-header track-1">Serverless & Cloud Native</div>
+                    <div class="track-header track-2">AI / ML & Data</div>
+                    <div class="track-header track-3">DevOps & Security</div>
+                </div>
+
+                <div class="schedule-grid">
+                    <!-- 09:00 AM -->
+                    <div class="time-slot">09:00 AM</div>
+                    <div class="schedule-card common-event glass-panel">
+                        <div class="details">
+                            <h3><i class="fas fa-coffee"></i> Registration & Breakfast</h3>
+                            <p>Collect your badges, swags and grab some coffee.</p>
+                        </div>
+                    </div>
+
+                    <!-- 10:00 AM -->
+                    <div class="time-slot">10:00 AM</div>
+                    <div class="schedule-card common-event glass-panel">
+                        <div class="details">
+                            <h3><i class="fas fa-microphone"></i> Keynote Address</h3>
+                            <p>Opening remarks and insights into the future of cloud computing.</p>
+                        </div>
+                    </div>
+
+                    <!-- 11:00 AM - Breakout 1 -->
+                    <div class="time-slot">11:00 AM</div>
+                    <div class="schedule-card track-event glass-panel track-border-1">
+                        <div class="track-mobile-label track-color-1">Serverless & Cloud Native</div>
+                        <div class="tags"><span class="tag">L300</span></div>
+                        <h3>Event-Driven Architecture on AWS</h3>
+                        <div class="speaker-info">
+                            <i class="fas fa-user-circle"></i> <span>Jane Doe</span>
+                        </div>
+                    </div>
+                    <div class="schedule-card track-event glass-panel track-border-2">
+                        <div class="track-mobile-label track-color-2">AI / ML & Data</div>
+                        <div class="tags"><span class="tag">L200</span></div>
+                        <h3>Building GenAI Apps with Bedrock</h3>
+                        <div class="speaker-info">
+                            <i class="fas fa-user-circle"></i> <span>John Smith</span>
+                        </div>
+                    </div>
+                    <div class="schedule-card track-event glass-panel track-border-3">
+                        <div class="track-mobile-label track-color-3">DevOps & Security</div>
+                        <div class="tags"><span class="tag">L300</span></div>
+                        <h3>Zero Trust Security in AWS</h3>
+                        <div class="speaker-info">
+                            <i class="fas fa-user-circle"></i> <span>Alice Johnson</span>
+                        </div>
+                    </div>
+
+                    <!-- 01:00 PM -->
+                    <div class="time-slot">01:00 PM</div>
+                    <div class="schedule-card common-event glass-panel">
+                        <div class="details">
+                            <h3><i class="fas fa-utensils"></i> Networking Lunch</h3>
+                            <p>Enjoy a delicious meal while networking with peers.</p>
+                        </div>
+                    </div>
+
+                    <!-- 02:00 PM - Breakout 2 -->
+                    <div class="time-slot">02:00 PM</div>
+                    <div class="schedule-card track-event glass-panel track-border-1">
+                        <div class="track-mobile-label track-color-1">Serverless & Cloud Native</div>
+                        <div class="tags"><span class="tag">L200</span></div>
+                        <h3>Step Functions for Orchestration</h3>
+                        <div class="speaker-info">
+                            <i class="fas fa-user-circle"></i> <span>Bob Wilson</span>
+                        </div>
+                    </div>
+                    <div class="schedule-card track-event glass-panel track-border-2">
+                        <div class="track-mobile-label track-color-2">AI / ML & Data</div>
+                        <div class="tags"><span class="tag">L400</span></div>
+                        <h3>Advanced RAG Strategies</h3>
+                        <div class="speaker-info">
+                            <i class="fas fa-user-circle"></i> <span>Charlie Brown</span>
+                        </div>
+                    </div>
+                    <div class="schedule-card track-event glass-panel track-border-3">
+                        <div class="track-mobile-label track-color-3">DevOps & Security</div>
+                        <div class="tags"><span class="tag">L200</span></div>
+                        <h3>Automating Compliance with Config</h3>
+                        <div class="speaker-info">
+                            <i class="fas fa-user-circle"></i> <span>Diana Prince</span>
+                        </div>
+                    </div>
+
+                    <!-- 03:30 PM -->
+                    <div class="time-slot">03:30 PM</div>
+                    <div class="schedule-card common-event glass-panel">
+                        <div class="details">
+                            <h3><i class="fas fa-mug-hot"></i> High Tea & Networking</h3>
+                            <p>Grab a snack and visit the sponsor booths.</p>
+                        </div>
+                    </div>
+
+                    <!-- 04:00 PM - Breakout 3 -->
+                    <div class="time-slot">04:00 PM</div>
+                    <div class="schedule-card track-event glass-panel track-border-1">
+                        <div class="track-mobile-label track-color-1">Serverless & Cloud Native</div>
+                        <div class="tags"><span class="tag">L300</span></div>
+                        <h3>Mastering DynamoDB Data Modeling</h3>
+                        <div class="speaker-info">
+                            <i class="fas fa-user-circle"></i> <span>Eve Adams</span>
+                        </div>
+                    </div>
+                    <div class="schedule-card track-event glass-panel track-border-2">
+                        <div class="track-mobile-label track-color-2">AI / ML & Data</div>
+                        <div class="tags"><span class="tag">L300</span></div>
+                        <h3>Data Lakes on S3 with Iceberg</h3>
+                        <div class="speaker-info">
+                            <i class="fas fa-user-circle"></i> <span>Frank Ocean</span>
+                        </div>
+                    </div>
+                    <div class="schedule-card track-event glass-panel track-border-3">
+                        <div class="track-mobile-label track-color-3">DevOps & Security</div>
+                        <div class="tags"><span class="tag">L400</span></div>
+                        <h3>GitOps at Scale with EKS</h3>
+                        <div class="speaker-info">
+                            <i class="fas fa-user-circle"></i> <span>Grace Hopper</span>
+                        </div>
+                    </div>
+
+                    <!-- 04:45 PM -->
+                    <div class="time-slot">04:45 PM</div>
+                    <div class="schedule-card common-event glass-panel">
+                        <div class="details">
+                            <h3><i class="fas fa-trophy"></i> Closing Remarks & Lucky Draw</h3>
+                            <p>Wrap up the day with exciting giveaways!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sponsors Section -->
+    <section id="sponsors" class="sponsors section-padding">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Our <span class="highlight">Sponsors</span></h2>
+                <p>A huge thank you to the partners who make this community possible.</p>
+            </div>
+            <div class="sponsors-tier reveal">
+                <h3 class="tier-title">Platinum</h3>
+                <div class="sponsors-grid platinum">
+                    <div class="sponsor-logo glass-panel"><i class="fas fa-building"></i> Company A</div>
+                </div>
+            </div>
+            <div class="sponsors-tier reveal">
+                <h3 class="tier-title">Gold</h3>
+                <div class="sponsors-grid gold">
+                    <div class="sponsor-logo glass-panel"><i class="fas fa-building"></i> Company B</div>
+                    <div class="sponsor-logo glass-panel"><i class="fas fa-building"></i> Company C</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tickets Section -->
+    <section id="tickets" class="tickets section-padding">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Get Your <span class="highlight">Tickets</span></h2>
+                <p>Secure your spot at the biggest AWS event in Vadodara.</p>
+            </div>
+            <div class="tickets-grid reveal">
+                <div class="ticket-card glass-panel">
+                    <h3>Early Bird</h3>
+                    <div class="price">₹499</div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Full Day Access</li>
+                        <li><i class="fas fa-check"></i> Swag Kit</li>
+                        <li><i class="fas fa-check"></i> Lunch & Snacks</li>
+                    </ul>
+                    <a href="#" class="btn-outline">Sold Out</a>
+                </div>
+                <div class="ticket-card glass-panel highlight-card">
+                    <div class="popular-badge">Most Popular</div>
+                    <h3>Regular Pass</h3>
+                    <div class="price">₹799</div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Full Day Access</li>
+                        <li><i class="fas fa-check"></i> Premium Swag Kit</li>
+                        <li><i class="fas fa-check"></i> Lunch & Snacks</li>
+                        <li><i class="fas fa-check"></i> Networking Session</li>
+                    </ul>
+                    <a href="#" class="btn-primary">Buy Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Venue Section -->
+    <section id="venue" class="venue section-padding">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Event <span class="highlight">Venue</span></h2>
+                <p>Join us at the heart of the cultural capital.</p>
+            </div>
+            <div class="venue-content glass-panel reveal">
+                <div class="venue-info">
+                    <h3>Grand Convention Center</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Cloud Avenue, Tech Park, Vadodara, Gujarat 390001</p>
+                    <p>Easily accessible from the railway station and airport. Ample parking available.</p>
+                    <a href="#" class="btn-outline mt-4">Get Directions</a>
+                </div>
+                <div class="venue-map">
+                    <div class="map-placeholder">
+                        <i class="fas fa-map"></i>
+                        <p>Interactive Map</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Volunteer Section -->
+    <section id="volunteer" class="volunteer section-padding">
+        <div class="container">
+            <div class="cta-box glass-panel reveal" style="background: linear-gradient(135deg, rgba(255, 153, 0, 0.1) 0%, rgba(35, 47, 62, 0.8) 100%);">
+                <div class="cta-content">
+                    <h2>Become a <span class="highlight">Volunteer</span></h2>
+                    <p>Want to be a part of the organizing team? We are looking for enthusiastic individuals to help us make this event a success.</p>
+                </div>
+                <div class="cta-buttons">
+                    <a href="#" class="btn-primary btn-large">Apply to Volunteer</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section id="join" class="cta-section section-padding">
+        <div class="container">
+            <div class="cta-box glass-panel reveal">
+                <div class="cta-content">
+                    <h2>Ready to start your cloud journey?</h2>
+                    <p>Join our Slack workspace and Meetup group to stay updated on the latest events and discussions.</p>
+                </div>
+                <div class="cta-buttons">
+                    <a href="#" class="btn-primary btn-large"><i class="fab fa-slack"></i> Join Slack</a>
+                    <a href="#" class="btn-secondary btn-large"><i class="fab fa-meetup"></i> Join Meetup</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <span class="aws-text">AWS</span> User Group <span class="city">Vadodara</span>
+                    </a>
+                    <p>Empowering developers and cloud enthusiasts in the cultural capital of Gujarat.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#schedule">Schedule</a></li>
+                        <li><a href="#speakers">Speakers</a></li>
+                        <li><a href="#sponsors">Sponsors</a></li>
+                        <li><a href="#volunteer">Volunteer</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="#">AWS Documentation</a></li>
+                        <li><a href="#">AWS Training</a></li>
+                        <li><a href="#">Call for Speakers</a></li>
+                        <li><a href="#">Sponsor Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h3>Contact</h3>
+                    <p><i class="fas fa-envelope"></i> hello@awsugvadodara.org</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Vadodara, Gujarat, India</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 AWS User Group Vadodara. All rights reserved.</p>
+                <p>Not officially affiliated with Amazon Web Services, Inc.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
